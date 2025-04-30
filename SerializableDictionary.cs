@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityObject = UnityEngine.Object;
 
+// TODO: UPDATE THIS
 [Serializable, DebuggerDisplay("Count = {Count}")]
 public class SerializableDictionary<TKey, TValue> : IDictionary<TKey, TValue>
 {
